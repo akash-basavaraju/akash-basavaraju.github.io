@@ -7,7 +7,7 @@ import { terser } from "rollup-plugin-terser";
 export default {
   input: "./src/index.tsx",
   output: {
-    file: "docs/js/bundle.min.js",
+    file: "build/bundle.min.js",
     format: "iife",
     name: "bundle",
   },
