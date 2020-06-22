@@ -1,13 +1,14 @@
 {
-  "name": "create-react-rollup",
+  "name": "akash-basavaraju.github.io",
   "version": "1.0.0",
-  "description": "To create react app with rollup",
+  "description": "Akash Basavaraju's Portfolio",
   "main": "src/index.tsx",
   "scripts": {
     "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "yarn run build && git push",
+    "dev": "rollup -cw"
   },
-  "author": "",
+  "author": "Akash Basavaraju",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
@@ -20,6 +21,7 @@
     "eslint-plugin-react": "^7.20.0",
     "prettier": "^2.0.5",
     "rollup": "^2.17.0",
+    "rollup-plugin-styles": "^3.8.2",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "typescript": "^3.9.5"

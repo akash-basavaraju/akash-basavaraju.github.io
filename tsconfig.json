@@ -8,7 +8,6 @@
     "allowUnreachableCode": false,
     "noImplicitReturns": true,
     "noImplicitAny": true,
-    // "outFile": "build/bundle.js",
     "allowSyntheticDefaultImports": true,
     "sourceMap": true
   },
