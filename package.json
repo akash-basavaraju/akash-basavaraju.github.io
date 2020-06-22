@@ -5,7 +5,6 @@
   "main": "src/index.tsx",
   "scripts": {
     "build": "rollup -c",
-    "publish": "yarn run build && git push",
     "dev": "rollup -cw"
   },
   "author": "Akash Basavaraju",
